@@ -77,7 +77,7 @@ abstract class I${FEATURE_CLASS_NAME}Data {}
 EOF
 
   # bloc/data/implementation/<FeatureName>Data.dart
-  DATA_IMPL_FILE="$FEATURE_DIR/bloc/data/implementation/${FEATURE_CLASS_NAME}Data.dart"
+  DATA_IMPL_FILE="$FEATURE_DIR/bloc/data/implementation/${FEATURE_SNAKE_NAME}_data.dart"
   cat > "$DATA_IMPL_FILE" <<EOF
 import '../i_${FEATURE_SNAKE_NAME}_data.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -1,0 +1,80 @@
+{
+  "info": {
+    "name": "Sample API Collection",
+    "description": "Sample collection to demonstrate the postman_to_dart.sh script"
+  },
+  "item": [
+    {
+      "name": "Get Users",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "/api/users",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "users"]
+        }
+      }
+    },
+    {
+      "name": "Get User by ID",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "/api/users/{id}",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "users", "{id}"]
+        }
+      }
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "/api/users",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "users"]
+        }
+      }
+    },
+    {
+      "name": "Update User",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "/api/users/{id}",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "users", "{id}"]
+        }
+      }
+    },
+    {
+      "name": "Delete User",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "/api/users/{id}",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "users", "{id}"]
+        }
+      }
+    },
+    {
+      "name": "List Products",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "/api/products",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "products"]
+        }
+      }
+    }
+  ]
+} 

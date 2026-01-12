@@ -12,15 +12,15 @@ This template includes the following major packages:
 ```yaml
 flutter_riverpod: ^2.6.1           # State management
 dartz: ^0.10.1                     # Functional programming
-dio: ^5.8.0+1                      # HTTP client
+dio: ^5.9.1                        # HTTP client
 pretty_dio_logger: ^1.4.0          # Dio logging
 json_annotation: ^4.9.0            # JSON serialization
-flutter_secure_storage: ^9.2.4     # Secure key-value storage
-easy_localization: ^3.0.7+1        # Localization
+flutter_secure_storage: ^10.0.0    # Secure key-value storage
+easy_localization: ^3.0.8          # Localization
 auto_route: ^10.0.1                # Declarative routing
-local_auth: ^2.3.0                 # Face ID / Fingerprint
-location: ^8.0.0                   # Device location
-url_launcher: ^6.3.1               # Open URLs, apps, etc.
+local_auth: ^3.0.0                 # Face ID / Fingerprint
+location: ^8.0.1                   # Device location
+url_launcher: ^6.3.2               # Open URLs, apps, etc.
 flutter_jailbreak_detection:
   git:
     url: https://github.com/pdurasie-ecovery/flutter_jailbreak_detection.git

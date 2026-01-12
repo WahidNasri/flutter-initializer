@@ -17,14 +17,14 @@ dependencies:
 
   flutter_riverpod: ^2.6.1
   dartz: ^0.10.1
-  dio: ^5.8.0+1
+  dio: ^5.9.0
   json_annotation: ^4.9.0
-  flutter_secure_storage: ^9.2.4
-  easy_localization: ^3.0.7+1
+  flutter_secure_storage: ^10.0.0
+  easy_localization: ^3.0.8
   auto_route: ^10.0.1
-  local_auth: ^2.3.0
-  location: ^8.0.0
-  url_launcher: ^6.3.1
+  local_auth: ^3.0.0
+  location: ^8.0.1
+  url_launcher: ^6.3.2
   pretty_dio_logger: ^1.4.0
 
 dev_dependencies:
@@ -41,6 +41,13 @@ flutter:
   uses-material-design: true
   assets:
     - assets/translations/
+    - assets/fonts/
+    - assets/fonts/ibm/
+
+  fonts:
+    - family: ibm
+      fonts:
+        - asset: assets/fonts/ibm/IBMPlexSansArabic-Regular.ttf
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a

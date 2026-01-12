@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 import 'base/router/app_router.dart';
-import 'base/styles.dart';
+import 'base/styles/styles.dart';
 import 'base/widgets/jailbreak_error_widget.dart';
 
 void main() async {

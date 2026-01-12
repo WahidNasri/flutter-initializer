@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_initializer/base/styles/colors.dart';
 
+const String _fontFamily = 'ibm';
+
+
 final appTheme = ThemeData(
-  fontFamily: 'JfFlat', // Use a modern Arabic-friendly font if available
+  fontFamily: _fontFamily,
   primaryColor: primaryColor,
   colorScheme: ColorScheme.fromSeed(
     seedColor: primaryColor,
@@ -31,7 +34,7 @@ final appTheme = ThemeData(
     style: ElevatedButton.styleFrom(
       backgroundColor: primaryColor,
       foregroundColor: Colors.white,
-      textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, fontFamily: _fontFamily),
       padding: const EdgeInsets.symmetric(vertical: 15),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       elevation: 0,
@@ -41,7 +44,7 @@ final appTheme = ThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: primaryColor,
       backgroundColor: Colors.white,
-      textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, fontFamily: _fontFamily),
       padding: const EdgeInsets.symmetric(vertical: 15),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
@@ -78,6 +81,7 @@ final appTheme = ThemeData(
       fontSize: 20,
       fontWeight: FontWeight.bold,
       color: Colors.white,
+      fontFamily: _fontFamily
     ),
   ),
 );
